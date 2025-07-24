@@ -1,4 +1,4 @@
-public class StudentDetails {
+public class studentdetails{
     public static void main(String[] args) {
         if (args.length < 3) {
             System.out.println("Usage: java StudentDetails <name> <rollNo> <dept>");
