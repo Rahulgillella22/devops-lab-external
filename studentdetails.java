@@ -1,8 +1,13 @@
-public class studentdetails {
+public class StudentDetails {
     public static void main(String[] args) {
-        String name = "Rahul";
-        int rollNo = 101;
-        String dept = "CSE";
+        if (args.length < 3) {
+            System.out.println("Usage: java StudentDetails <name> <rollNo> <dept>");
+            return;
+        }
+
+        String name = args[0];
+        int rollNo = Integer.parseInt(args[1]);
+        String dept = args[2];
 
         System.out.println("===== Student Details =====");
         System.out.println("Name: " + name);
