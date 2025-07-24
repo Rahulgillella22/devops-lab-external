@@ -8,3 +8,6 @@ public class sumofn {
         System.out.println("Sum of first " + n + " numbers is: " + sum);
     }
 }
+
+
+//error got at the parameters passing bec in jenkins parameters will not accepted by scanner it will be through the args 
