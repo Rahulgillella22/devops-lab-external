@@ -9,3 +9,7 @@ COPY sumoftwo.py .
 
 # Run the Python program (but override this at runtime using CMD args)
 ENTRYPOINT ["python", "sumoftwo.py"]
+
+
+#docker build -t sumoftwo .
+#docker run sumoftwo 5 7

@@ -12,3 +12,6 @@ RUN javac studentdetails.java
 
 # Default command; we’ll override this via Python
 ENTRYPOINT ["java", "studentdetails"]
+
+#docker build -t "studentdetails"
+#docker run studentdetails Rahul 25 cse-iot

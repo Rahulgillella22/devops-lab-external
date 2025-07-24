@@ -12,3 +12,7 @@ RUN javac sumoftwo.java
 
 # Run Java program
 CMD ["java", "sumoftwo"]
+
+
+#to run the docker build -t sumoftwo .
+#to run the docker run sumoftwo

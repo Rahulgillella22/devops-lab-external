@@ -16,3 +16,6 @@ public class studentdetails{
         System.out.println("===========================");
     }
 }
+
+
+/* program with the arguments passing in the jenkins */
