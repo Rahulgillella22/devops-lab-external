@@ -1,0 +1,5 @@
+npm init -y   ( if node not there sudo apt in install nodejs npm -y)
+npm install selenium-webdriver
+sudo apt install chromium-chromedriver -y
+npx serve .
+in another terminal - node testlogin.js
